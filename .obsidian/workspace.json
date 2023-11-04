@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Windows Forensics/Windows Registry.md",
+                "file": "Notes/Windows/Dictionary.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Windows Forensics/Windows Registry.md",
+                "file": "Notes/Windows/Dictionary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Windows Forensics/Windows Registry.md",
+                "file": "Notes/Windows/Dictionary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,12 +139,12 @@
   },
   "active": "72868d3d0f3eafbf",
   "lastOpenFiles": [
-    "Windows/Windows Forensics/ShellBags.md",
-    "Windows/Windows Forensics/Windows Registry.md",
-    "Appendix.md",
-    "Windows/Windows Forensics/Windows Registry Cheat Sheet.pdf",
-    "Untitled",
-    "Windows/Windows Forensics",
-    "Windows"
+    "Notes/Windows/Windows Forensics/Windows Registry.md",
+    "Notes",
+    "Notes/Windows/Windows Forensics/ShellBags.md",
+    "Notes/Windows/Dictionary.md",
+    "Notes/Windows/Windows Forensics/Windows Registry Cheat Sheet.pdf",
+    "Notes/Windows/Windows Forensics",
+    "Notes/Windows"
   ]
 }
