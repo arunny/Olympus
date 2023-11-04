@@ -1,5 +1,3 @@
-![[Windows Registry Cheat Sheet.pdf]]
-
 All registry locations are located in C:\\Windows\\System32\\config.
 NTuser.dat is the user currently in HKCU. You can view copies of the registry files with Registry Explorer on your forensics workstation. 
 
