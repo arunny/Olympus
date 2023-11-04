@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "885b90d280f76a1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb79fbf7509c3350",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "656ba1a673c4f485",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Windows Forensics/Windows Registry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f98cd9e30a60e28f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9f5e715a817355a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe417af44ba38f81",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "59eaaa85e72a378b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3301265c2c66a463",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "cdeb79846e301e05",
+    "type": "split",
+    "children": [
+      {
+        "id": "b08e25731924f87d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "323cb3488876415b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Windows/Windows Forensics/Windows Registry.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a3d35d92ed148c36",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Windows/Windows Forensics/Windows Registry.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ac3f1e796599bfb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c9388e7302d309fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Windows/Windows Forensics/Windows Registry.md"
+              }
+            }
+          },
+          {
+            "id": "9a04a4c22dfb9821",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fe417af44ba38f81",
+  "lastOpenFiles": [
+    "Windows/Windows Forensics/ShellBags.md",
+    "Appendix.md",
+    "Windows/Windows Forensics/Windows Registry.md",
+    "Windows/Windows Forensics/Windows Registry Cheat Sheet.pdf",
+    "Untitled",
+    "Windows/Windows Forensics",
+    "Windows"
+  ]
+}
