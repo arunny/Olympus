@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Unravel/main.py.md",
+                "file": "Notes/Linux/Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Unravel/main.py.md",
+                "file": "Notes/Linux/Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Unravel/main.py.md",
+                "file": "Notes/Linux/Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Unravel/main.py.md"
+                "file": "Notes/Linux/Commands.md"
               }
             }
           }
@@ -147,9 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe417af44ba38f81",
+  "active": "72868d3d0f3eafbf",
   "lastOpenFiles": [
     "picoCTF/Obedient Cat.md",
+    "Notes/Linux/Commands.md",
+    "Projects/Unravel/Untitled.md",
+    "Untitled.md",
     "Projects/Unravel/main.py.md",
     "Projects/Unravel",
     "Projects",
