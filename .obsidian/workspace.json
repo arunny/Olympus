@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Windows/Windows Forensics/Registry.md",
+                "file": "Projects/Unravel/main.py.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Windows/Windows Forensics/Registry.md",
+                "file": "Projects/Unravel/main.py.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Windows/Windows Forensics/Registry.md",
+                "file": "Projects/Unravel/main.py.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,6 +116,16 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bc8a7dc95950fda0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projects/Unravel/main.py.md"
               }
             }
           }
@@ -139,18 +149,31 @@
   },
   "active": "fe417af44ba38f81",
   "lastOpenFiles": [
-    "README.md",
-    "Notes/Windows/Windows Forensics/Images/13Cubed Windows Registry Cheat Sheet.pdf",
+    "picoCTF/Obedient Cat.md",
+    "Projects/Unravel/main.py.md",
+    "Projects/Unravel",
+    "Projects",
+    "CodeWars/Kata 6/Rot13.md",
+    "CodeWars/Kata 6/Split Strings.md",
+    "CodeWars/Kata 6/Highest Scoring Word.md",
+    "CodeWars/Kata 6/Write Number in Expanded Form.md",
+    "CodeWars/Kata 7/Get the Middle Character.md",
+    "CodeWars/Kata 6/Count the smiley faces!.md",
+    "CodeWars/Kata 6/Delete occurrences of an element if it occurs more than n times.md",
+    "CodeWars/Kata 5",
+    "CodeWars/Kata 6",
+    "CodeWars/Kata 7",
+    "CodeWars",
+    "Notes/Untitled",
+    "TryHackMe",
+    "Notes/Programming/Python",
+    "picoCTF/Untitled.md",
     "Notes/Windows/Windows Forensics/Registry.md",
+    "picoCTF",
+    "README.md",
     "Notes/Windows/Windows Forensics/USBs.md",
     "Notes/Windows/Dictionary.md",
     "Notes/Windows/Windows Forensics/ShellBags.md",
-    "Notes/Windows/Windows Forensics/Persistence.md",
-    "Notes/Windows/Windows Forensics/Images",
-    "Notes/Programming",
-    "Notes/Linux",
-    "Notes",
-    "Notes/Windows/Windows Forensics",
-    "Notes/Windows"
+    "Notes/Windows/Windows Forensics/Persistence.md"
   ]
 }

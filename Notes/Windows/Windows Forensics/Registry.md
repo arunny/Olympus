@@ -77,7 +77,7 @@ Value: 1
 	- There may be more than one but the value of the sub-key Current within HKLM\\SYSTEM\\Select will display the correct ControlSet to investigate. 
 - Vendor Identification (VID) and Product Identification (PID) can be used to find out what type of USB device was connected.
 ###### HKLM\\SOFTWARE\\Microsoft\\Windows Portable Devices\\Devices
-- Find serial # and then look for FriendlyName to obtain the Volume Name of the USB device
+- Find serial # and then look for FriendlyName to obtain the Volume Name of the USB device.
 ###### HKLM\\SYSTEM\\MountedDevices
-- Find serial # to obtain the Drive Letter of the USB device
-- Find serial # to obtain the Volume GUID of the USB device
+- Find serial # to obtain the Drive Letter of the USB device.
+- Find serial # to obtain the Volume GUID of the USB device.
