@@ -1,4 +1,4 @@
-#### Deployment through GPO: 
+## Deployment through GPO: 
 ---
 1. __Preparing the distribution point to push the packages__:
 	1. Copy the Agent Package on to the Active Directory machine.
@@ -98,6 +98,6 @@
 ### Confirm Immediate Task was successful
 ---
 - To confirm that an Immediate Task ran, you have to dig through each client's Windows Event Log Information about an individual GPP application is stored in the Group Policy Operational Log, located under Applications and Services in the Event Viewer. Look for `Event ID 4016`, which will notify you when the applicable Group Policy was detected.
-#### Confirm Scheduled Task ran
+### Confirm Scheduled Task ran
 --- 
 - To determine if the task actually ran, check the Task Scheduler Operational Log in the Event Viewer folder. This log will have a series of Event IDs, including `Event ID 106 (registering the task)`, `Event ID 107 (triggering the task)` and `Event ID 141 (deleting the registration)`.
