@@ -20,13 +20,13 @@
 		2. Expand the `Domains OU`
 		3. Right click on the <\Domain Name>
 		4. Click on the `Create a GPO in this domain, and link it here...` menu item.
-				![[Pasted image 20231107175648.png]]
+				![](https://github.com/arunny/Olympus/blob/main/Notes/Images/Pasted%20image%2020231107175648.png)
 		5. In the new GPO screen, type in the name of your GPO. Then click ok.
 		6. Click on the newly created `Group Policy Object`.
 		7. Click on the `Details` tab in the right window pain.
 		8. Click the `GPO Status` drop down list.
 		9. Select the `User configuration settings disabled` menu item. Click Ok.
-				![[Pasted image 20231107180016.png]]
+				![](https://github.com/arunny/Olympus/blob/main/Notes/Images/Pasted%20image%2020231107180016.png)
 		10. In the `Group Policy Management Console Screen`, select the newly created GPO and edit the policy settings.
 		11. Right click on the newly created GPO.
 		12. Click on "Edit" in the menu list.
