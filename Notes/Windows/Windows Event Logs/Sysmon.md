@@ -20,24 +20,25 @@
 		2. Expand the `Domains OU`
 		3. Right click on the <\Domain Name>
 		4. Click on the `Create a GPO in this domain, and link it here...` menu item.
-				![](https://github.com/arunny/Olympus/blob/main/Notes/Images/Pasted%20image%2020231107175648.png)
+		  	 ![](https://github.com/arunny/Olympus/blob/main/Notes/Images/Pasted%20image%2020231107175648.png)
 		5. In the new GPO screen, type in the name of your GPO. Then click ok.
 		6. Click on the newly created `Group Policy Object`.
 		7. Click on the `Details` tab in the right window pain.
 		8. Click the `GPO Status` drop down list.
 		9. Select the `User configuration settings disabled` menu item. Click Ok.
-				![](https://github.com/arunny/Olympus/blob/main/Notes/Images/Pasted%20image%2020231107180016.png)
-		10. In the `Group Policy Management Console Screen`, select the newly created GPO and edit the policy settings.
-		11. Right click on the newly created GPO.
-		12. Click on "Edit" in the menu list.
-		13. We will now create a new Scheduled Task. If you use Immediate Task, it will not show up on Task Scheduler and will run/delete itself after applying itself.
+
+  			![](https://github.com/arunny/Olympus/blob/main/Notes/Images/Pasted%20image%2020231107180016.png)
+		11. In the `Group Policy Management Console Screen`, select the newly created GPO and edit the policy settings.
+		12. Right click on the newly created GPO.
+		13. Click on "Edit" in the menu list.
+		14. We will now create a new Scheduled Task. If you use Immediate Task, it will not show up on Task Scheduler and will run/delete itself after applying itself.
 			1. Click the `Computer Configuration` menu item.
 			2. Click the `Preferences` menu item. 
 			3. Click the `Control Panel Settings` menu item. 
 			4. Right click on the `Scheduled Tasks` menu item.
 			5. Click on the new menu item.
 			6. Click on the `Scheduled Task (At least Windows 7)**”
-		14. General Tab.
+		15. General Tab.
 			1. Select `replace` in the `Action` drop down list
 			2. Type a name for this Task in the “**Name**” field. In this case we will type <\TASKNAME>.
 			3. Select the `Change User or Group…` button.
@@ -48,13 +49,13 @@
 			8. Check the `Hidden`check box.
 			9. Select `Windows® 7, Windows Server ™ 2008R2` in the `Configure for` drop down list.
 			10. Select the `Triggers` Tab. Click on the New… button.
-		15. Triggers Tab.
+		16. Triggers Tab.
 			1. Select `At task creation/modification` in the `Begin the task` drop down list.
 			2. Check the `Stop task if it runs longer than` and Select `1 hour` from the drop down list.
 			3. Check the `Activate` check box. Leave the default item, which should be the current time.
 			4. Check the `Enabled` check box. Click the “**Ok**” button
 			5. Select the “**Actions**” tab
-		16.  Action Tab.
+		17.  Action Tab.
 			1. In the (**New Task (At least Windows 7) Properties**) screen, update the Actions settings for the new Task.
 			2. Click on the “**New…**” button.
 			3. Select “**Start a program**” in the “**Action**” drop down list.
@@ -63,7 +64,7 @@
 			5. Type the below arguments in the “**Add arguments(optional)**” field. Note the path below is the path to your Network Share where the Deploy script is located. For this instance, it’s a UNC on <\ADComputerName>. 
 				1. `/c \\<\AD-ComputerName>\<Path>\<\Script File>` 
 				2. Click the “**Ok**” button.
-		17. Create another Action Task.
+		18. Create another Action Task.
 			1. Click on new... button.
 			2. Select `Start a program` in the `Action` drop down list.
 			3. Type the below path and program name in the `Program/Script` field. For this instance, we are running
@@ -72,7 +73,7 @@
 				1. ` -c $('Processed Job {0} as of {1}' -f '<TASKNAME>', $(Get-Date)) | Out-File -FilePath $('{0}\{1}_GPO_Status.log' -f $Env:TEMP, '<GPO NAME>') -Force`
 				2. **Note:** <\TASKNAME> is the name of the Scheduled Job we defined earlier.
 				3. **Note:** <\GPO Name> is the name of the GPO we defined earlier. Make sure this is the name of your GPO so the logging make sense. Click Ok.
-		18. Create 3rd and final Action Task.
+		19. Create 3rd and final Action Task.
 			1. 1. Click on the “**New…**” button
 			2. Select `Start a program` in the “**Action**” drop down list
 			3. Type the below path and program name in the `Program/Script` field. For this instance, we are running
@@ -81,7 +82,7 @@
 				1. `-c start -FilePath 'schtasks.exe' -ArgumentList '/Delete /TN "SysMonDeployment" /F`
 				2. **Note:** <\TASKNAME> is the name of the Scheduled Job we defined earlier. If you change the name of the Scheduled job please change it here or the task will not be deleted. Click the “**Ok**” button
 			5. Select the “**Settings**” tab
-		19. Settings Tab.
+		20. Settings Tab.
 			1. · In the `(New Task (At least Windows 7) Properties**) screen, update the Settings configuration.
 			2. Check the `Allow task to be run on demand` check box.
 			3. Check the `Run task as soon as possible after a scheduled start is missed` check box.
