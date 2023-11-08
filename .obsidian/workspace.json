@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Linux/Commands.md",
+                "file": "Notes/Windows/Windows Event Logs/Sysmon.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Linux/Commands.md",
+                "file": "Notes/Windows/Windows Event Logs/Sysmon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Linux/Commands.md",
+                "file": "Notes/Windows/Windows Event Logs/Sysmon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Linux/Commands.md"
+                "file": "Notes/Windows/Windows Event Logs/Sysmon.md"
               }
             }
           }
@@ -149,35 +149,41 @@
   },
   "active": "72868d3d0f3eafbf",
   "lastOpenFiles": [
+    "Pasted image 20231107180016.png",
+    "Pasted image 20231107175648.png",
+    "Notes/Images/Pasted image 20231107175501.png",
+    "Notes/Windows/Windows Event Logs/Sysmon.md",
+    "Notes/Markdown Cheat Sheet.md",
+    "Notes/Images/13Cubed Windows Registry Cheat Sheet.pdf",
+    "Notes/Windows/Registry.md",
+    "Pasted image 20231107171007.png",
+    "Notes/Windows/Dictionary.md",
+    "Notes/Windows/Windows Event Logs/Event Logs.md",
+    "Notes/Windows/Windows Event Logs",
+    "Notes/Windows/Persistence.md",
+    "Notes/Windows/ShellBags.md",
+    "Notes/Windows/USBs.md",
+    "CodeWars/Kata 6/Write Number in Expanded Form.md",
+    "CodeWars/Kata 6/Split Strings.md",
+    "CodeWars/Kata 6/Rot13.md",
+    "CodeWars/Kata 6/Highest Scoring Word.md",
+    "CodeWars/Kata 6/Count the smiley faces!.md",
+    "Notes/Linux/Commands.md",
     "Projects/Unravel/main.py",
     "picoCTF/Obedient Cat.md",
-    "Notes/Linux/Commands.md",
     "Projects/Unravel/Untitled.md",
     "Untitled.md",
     "Projects/Unravel/main.py.md",
     "Projects/Unravel",
     "Projects",
-    "CodeWars/Kata 6/Rot13.md",
-    "CodeWars/Kata 6/Split Strings.md",
-    "CodeWars/Kata 6/Highest Scoring Word.md",
-    "CodeWars/Kata 6/Write Number in Expanded Form.md",
     "CodeWars/Kata 7/Get the Middle Character.md",
-    "CodeWars/Kata 6/Count the smiley faces!.md",
     "CodeWars/Kata 6/Delete occurrences of an element if it occurs more than n times.md",
     "CodeWars/Kata 5",
     "CodeWars/Kata 6",
     "CodeWars/Kata 7",
     "CodeWars",
     "Notes/Untitled",
-    "TryHackMe",
-    "Notes/Programming/Python",
     "picoCTF/Untitled.md",
-    "Notes/Windows/Windows Forensics/Registry.md",
-    "picoCTF",
-    "README.md",
-    "Notes/Windows/Windows Forensics/USBs.md",
-    "Notes/Windows/Dictionary.md",
-    "Notes/Windows/Windows Forensics/ShellBags.md",
-    "Notes/Windows/Windows Forensics/Persistence.md"
+    "README.md"
   ]
 }

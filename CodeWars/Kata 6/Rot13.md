@@ -23,9 +23,3 @@ def rot13(message):
             encoded += letter
     return encoded
 ```
-
-## Soltuion 2:
-
-```python
-
-```

@@ -4,3 +4,5 @@
 - Can be interchangeable with the [RFC 4122](https://datatracker.ietf.org/doc/html/rfc4122) universal unique identifier (UUID)
 - Example:
 	- GUID: 6B29FC40-CA47-1067-B31D-00DD010662DA
+
+Registry - 

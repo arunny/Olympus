@@ -1,4 +1,4 @@
-You can view copies of the registry files with Registry Explorer on your forensics workstation. 
+
 ###### Location of registry files
 - Main registry files are located in C:\\Windows\\System32\\config.
 - NTuser.dat is the user currently in HKCU and the file is located in %USERPROFILE%.

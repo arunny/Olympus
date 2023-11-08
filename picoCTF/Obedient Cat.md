@@ -1,3 +1,0 @@
-Just download the flag.
-
-picoCTF{s4n1ty_v3r1f13d_4a2b35fd}
